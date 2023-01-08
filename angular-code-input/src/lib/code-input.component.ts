@@ -50,6 +50,7 @@ export class CodeInputComponent implements AfterViewInit, OnInit, OnChanges, OnD
   @Input() code ?: string | number;
   @Input() disabled !: boolean;
   @Input() autocapitalize ?: string;
+  @Input() addSeparatorAfter !: number;
 
   @Output() readonly codeChanged = new EventEmitter<string>();
   @Output() readonly codeCompleted = new EventEmitter<string>();

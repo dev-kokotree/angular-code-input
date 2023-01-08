@@ -14,6 +14,7 @@ export interface CodeInputComponentConfig {
   code?: string | number;
   disabled?: boolean;
   autocapitalize?: string;
+  addSeparatorAfter?: number;
 }
 
 export const defaultComponentConfig: CodeInputComponentConfig = {
@@ -27,5 +28,6 @@ export const defaultComponentConfig: CodeInputComponentConfig = {
   isFocusingOnLastByClickIfFilled: false,
   code: undefined,
   disabled: false,
-  autocapitalize: undefined
+  autocapitalize: undefined,
+  addSeparatorAfter: undefined,
 };

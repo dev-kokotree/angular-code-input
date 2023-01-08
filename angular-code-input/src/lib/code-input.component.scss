@@ -13,6 +13,10 @@
   --item-background: transparent;
   --item-font-weight: 300;
   --color: #171516;
+  --sep-container-padding-right: 30px; 
+  --sep-font-size: 3em; 
+  --sep-top: 40%; 
+  --sep-right: 5px; 
 
   display: flex;
   transform: translate3d(0, 0, 0);
@@ -32,6 +36,23 @@
       text-security: var(--text-security-type);
       -webkit-text-security: var(--text-security-type);
       -moz-text-security: var(--text-security-type);
+    }
+
+    &.code-separator-container{
+      position: relative;
+      padding-right: var(--sep-container-padding-right);
+  
+      input {
+        display: inline;
+      }
+    
+      .code-separator{
+          position: absolute;
+          font-size: var(--sep-font-size);
+          top: var(--sep-top);
+          right: var(--sep-right);
+          transform: translateY(-50%);
+        }
     }
   }
 
