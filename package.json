@@ -8,7 +8,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "yalc-publish": "ng build && cd dist/angular-code-input && yalc publish"
   },
   "repository": {
     "type": "git",
