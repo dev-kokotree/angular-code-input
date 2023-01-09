@@ -1,6 +1,6 @@
 {
   "name": "@dev-kokotree/angular-code-input",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "Code or pin code input for Angular 7 - 12, 14 + / Ionic 4, 5 + projects",
   "keywords": [
     "angular",
