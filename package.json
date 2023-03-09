@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "yalc-publish": "ng build && cd dist/angular-code-input && yalc publish",
-    "publish": "ng build && cd dist/angular-code-input && npm publish"
+    "publish": "ng build && cd dist/angular-code-input && npm publish",
+    "publish-public": "ng build && cd dist/angular-code-input && npm publish --access=public"
   },
   "repository": {
     "type": "git",

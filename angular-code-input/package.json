@@ -1,5 +1,5 @@
 {
-  "name": "@dev-kokotree/angular-code-input",
+  "name": "@kokotree-inc/angular-code-input",
   "version": "1.6.3",
   "description": "Code or pin code input for Angular 7 - 12, 14 + / Ionic 4, 5 + projects",
   "keywords": [
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dev-kokotree/angular-code-input.git"
+    "url": "https://github.com/raghav-kokotree/angular-code-input.git"
   },
   "bugs": {
     "url": "https://github.com/AlexMiniApps/angular-code-input/issues"
